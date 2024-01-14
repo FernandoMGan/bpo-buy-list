@@ -1,9 +1,73 @@
+-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+
+Comandos Git
+
+Trabajo por la mañana (Máquina de Casa)
+# Asegúrate de estar en la rama que estás trabajando
+git checkout main
+
+# Obtén los cambios más recientes del repositorio remoto
+git pull origin main
+
+# Realiza tus cambios en los archivos
+# ...
+
+# Añade tus cambios al área de staging
+git add .
+
+# Realiza el commit
+git commit -m "Mensaje descriptivo del commit"
+
+git push origin main
+
+
+-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+
+Trabajo por la tarde (Trabajo)
+
+# Asegúrate de estar en la rama que estás trabajando
+git checkout main
+
+# Añade el remoto de casa si no lo has hecho antes (una vez)
+git remote add casa https://url-de-tu-repo-en-casa.git
+
+# Obtén los cambios más recientes desde tu casa
+git pull casa main
+
+# Realiza tus cambios en los archivos
+# ...
+
+# Añade tus cambios al área de staging
+git add .
+
+# Realiza el commit
+git commit -m "Mensaje descriptivo del commit"
+
+git push origin main
+
+
+
+-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Actualizando datos en mi terminal de hogar
 git checkout main
 git pull origin main
-
-
-
 
 
 …or create a new repository on the command line
