@@ -1,5 +1,12 @@
-…or create a new repository on the command line
+Actualizando datos en mi terminal de hogar
+git checkout main
+git pull origin main
 
+
+
+
+
+…or create a new repository on the command line
 echo "# bpo-buy-list" >> README.md
 git init
 git add README.md
